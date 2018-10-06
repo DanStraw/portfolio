@@ -1,8 +1,11 @@
+const $ = require('jquery')
+
 $('#year').text(new Date().getFullYear())
 
 $('.carousel').carousel({
-  interval: 4000,
+  interval: 500,
   keyboard: true,
   pause: 'hover',
   wrap: true
 })
+
