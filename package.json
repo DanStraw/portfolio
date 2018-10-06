@@ -16,7 +16,5 @@
     "url": "https://github.com/DanStraw/portfolio/issues"
   },
   "homepage": "https://github.com/DanStraw/portfolio#readme",
-  "dependencies": {
-    "jquery": "^3.3.1"
-  }
+  "dependencies": {}
 }
