@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   background: url('../img/skyline.jpg');
+  background-repeat: no-repeat;
 }
 .navbar {
   opacity: 0.98;
@@ -37,12 +38,11 @@ body {
 #photo-self {
   background-color: rgba(100, 55, 31, 0.95);
 }
-#projects-heading {
+#projects-heading, #contact-heading {
   background-color: rgba(100, 55, 31, 0.6);
 }
 #main-footer {
   color: white;
-  opacity: 0.98;
 }
 .fa-envelope-open:hover {
   color: #C63D2D !important;
@@ -59,16 +59,11 @@ body {
 .fa-facebook:hover {
   color: #3B5998 !important;
 }
-#main-footer {
-  position: absolute;
-  bottom: 0px;
-  width: 100vw;
-}
 
 .contact-form { 
-  -webkit-box-shadow: 10px 10px 39px 15px rgba(251,166,86,1);
-  -moz-box-shadow: 10px 10px 39px 15px rgba(251,166,86,1);
-  box-shadow: 10px 10px 39px 15px rgba(251,166,86,1);
+  -webkit-box-shadow: 0px -5px 39px 15px rgba(251,166,86,1);
+  -moz-box-shadow: 0px -5px 39px 15px rgba(251,166,86,1);
+  box-shadow: 0px -5px 39px 15px rgba(251,166,86,1);
 }
 .text-border {
   -webkit-text-stroke-width: 1px;
