@@ -18,27 +18,59 @@ body {
 }
 #home-heading {
   position: relative;
-  min-height: 200px;
-  background: url("../img/lights.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
+  height: auto;
 }
 
 .dark-overlay {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
 }
 
 #photo-self {
-  background-color: rgba(100, 55, 31, 0.95)
+  background-color: rgba(100, 55, 31, 0.95);
+}
+#projects-heading {
+  background-color: rgba(100, 55, 31, 0.6);
 }
 #main-footer {
   color: white;
   opacity: 0.98;
+}
+.fa-envelope-open:hover {
+  color: #C63D2D !important;
+}
+.fa-linkedin:hover {
+  color: #4875B4 !important;
+}
+.fa-github:hover {
+  color: #31c854 !important;
+}
+.fa-twitter:hover {
+  color: #33CCFF !important;
+}
+.fa-facebook:hover {
+  color: #3B5998 !important;
+}
+#main-footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+}
+
+.contact-form { 
+  -webkit-box-shadow: 10px 10px 39px 15px rgba(251,166,86,1);
+  -moz-box-shadow: 10px 10px 39px 15px rgba(251,166,86,1);
+  box-shadow: 10px 10px 39px 15px rgba(251,166,86,1);
+}
+.text-border {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }

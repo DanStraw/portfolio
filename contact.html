@@ -25,54 +25,52 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="/index.html" class="nav-link active">Home</a>
+            <a href="/index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="/projects.html" class="nav-link">Projects</a>
           </li>
           <li class="nav-item">
-            <a href="/contact.html" class="nav-link">Contact</a>
+            <a href="/contact.html" class="nav-link active">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section id="home-heading" class="py-2 dark-overlay">
+  <section id="contact-heading" class="py-2 dark-overlay">
     <div class="container">
       <div class="row">
-        <div class="col pt-3">
-          <h1>Welcome to My Webpage</h1>
-          <h3>About Me</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col py-3">
-          <p>I am experienced in JavaScript, Node.js, Express, Vue.js, React.js, Bootstrap, JQuery, MongoDB,
-            Github, among other web development programs</p>
-          </p>
+        <div class="col p-3 text-center text-white">
+          <h1>Contact Me</h1>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="photo-self" class="p-5">
+  <section id="contact-form" class="p-4">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-8 col-sm-6 col-md-4">
-          <img src="./assets/img/profile_photo.jpg" alt="Daniel Strawbridge" class="img-fluid rounded-circle mx-auto mb-3">
-        </div>
-        <div class="col-12 col-sm-6 text-white">
-          <p>I grew up in San Jose, but have been living in San Diego ever since attending San Diego State University I
-            graduated in 2010 with a Bachelor of Arts degree in Economics, with a minor in finance.</p>
-
-          <p> Ever since graduating I have been working for a bankrtupcty law firm. I have held many positions within
-            the
-            company, but have not found any of them fulfilling for very long. That is why I enrolled in the UCSD
-            Extension Coding Bootcamp. In the program I learned challenging, marketable skills that I anticipate will
-            lead to dramatic career growth.</p>
-          <p>When I am not coding, I enjoy reading, making and drinking beer, and playing guitar. I also just started
-            learning to play tennis with my girlfriend.</p>
+        <div class="col-12 col-sm-8 col-md-6">
+          <div class="card card-body bg-dark text-white contact-form">
+            <div class="form">
+              <form action="https://formspree.io/danstraw86@gmail.com" method="POST">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input class="form-control" type="text" id="email" placeholder="Email Address" name="email">
+                </div>
+                <div class="form-group">
+                  <label for="subject">subject</label>
+                  <input class="form-control" type="text" id="subject" placeholder="subject" name="subject">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="3" placeholder="enter message here" name="message"></textarea>
+                </div>
+                <input type="submit" value="Submit" class="btn btn-outline-primary btn-block btn-lg">
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -82,7 +80,7 @@
     <div class="container">
       <div class="row">
         <div class="col-4 text-white pt-2 text-left">
-          <i class="far fa-2x fa-envelope-open" data-toggle="modal" data-trigger="hover" data-target="#index-modal"></i>
+          <i class="far fa-2x fa-envelope-open" data-toggle="modal" data-trigger="hover" data-target="#contact-modal"></i>
           Email Me
         </div>
         <div class="col-4 pt-2">
@@ -108,7 +106,7 @@
     </div>
   </footer>
 
-  <div class="modal" id="index-modal">
+  <div class="modal" id="contact-modal">
     <div class="modal-dialog d-block">
       <div class="modal-content bg-dark">
         <div class="modal-header">
@@ -153,260 +151,6 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
   <script type="text/javascript" src="app.js">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   </script>
 </body>
