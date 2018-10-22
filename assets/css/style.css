@@ -58,6 +58,9 @@ footer {
 #contact-form, #projects-carousel, #index-main {
   flex:auto;
 }
+#index-main {
+  padding-top: 500px;
+}
 #main-footer {
   color: white;
 }
