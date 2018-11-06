@@ -7,7 +7,7 @@ html, body {
 body {
   overflow-x: hidden;
   background: url('../img/skyline.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -19,6 +19,7 @@ footer {
 
 .navbar {
   opacity: 0.98;
+  z-index: 1000;
 }
 
 .navbar .nav-link {
@@ -60,9 +61,6 @@ footer {
 }
 #index-main {
   padding-top: 500px;
-}
-#main-footer {
-  color: white;
 }
 .fa-envelope-open:hover {
   color: #C63D2D !important;
